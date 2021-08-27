@@ -24,10 +24,44 @@ a {
   border-color: #1861ac;
 }
 
+/* Page styles
+    _____________________________________________*/
+#home {
+    text-align: center;
+    padding-top: 200px;
+    /*padding-bottom: 200px;*/
+    color: white;
+    background-color: deepskyblue;
+    height: 500px;
+}
+
+#About {
+    padding-top: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10%;
+    /*padding-bottom: 200px;*/
+    color: white;
+    background-color: darkmagenta;
+    height: contain;
+}
+
+#Featured {
+    padding-top: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10%;
+    /*padding-bottom: 200px;*/
+    color: white;
+    background-color: darkgoldenrod;
+    height: contain;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    scroll-behavior: smooth;
 }
 @media (min-width: 768px) {
   html {
@@ -63,7 +97,7 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
